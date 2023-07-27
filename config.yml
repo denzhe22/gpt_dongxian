@@ -1,0 +1,9 @@
+api_key: "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"
+# 指定模型，默认为 gpt-3.5-turbo , 可选参数有： "gpt-4-0314", "gpt-4", "gpt-3.5-turbo-0301", "gpt-3.5-turbo"，如果使用gpt-4，请确认自己是否有接口调用白名单
+model: "gpt-3.5-turbo"
+# 超时时间
+session_timeout: 600
+# 单人单日请求次数上限，默认为0，即不限制
+max_request: 200
+# 指定服务启动端口，默认为 8090，一般在二进制宿主机部署时，遇到端口冲突时使用
+port: "8091"
